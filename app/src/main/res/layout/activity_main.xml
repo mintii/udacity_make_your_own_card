@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8F3931"
+    android:paddingHorizontal="10dp"
+    android:paddingTop="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/topMessage"
+        android:background="#800000"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:fontFamily="@font/amatic_sc_bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="#D6D6CE"
+        android:textSize="70sp"
+        android:textAllCaps="true"
+        android:textScaleX="1.6"
+        android:text="CONGRATS" />
+
+    <TextView
+        android:id="@+id/subMessage"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/topMessage"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#D6D6CE"
+        android:textColor="#800000"
+        android:fontFamily="@font/opensans_extra"
+        android:textSize="30dp"
+        android:text="on being great" />
+
+    <ImageView
+        android:id="@+id/cat-high-five"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/subMessage"
+        android:scaleType="fitXY"
+        android:src="@drawable/cathighfive" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@id/subMessage"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="high five"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#800000"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/amatic_sc_bold"
+        android:textAllCaps="true"
+        android:textColor="#D6D6CE"
+        android:textScaleX="4"
+        android:textSize="60sp"
+        android:text="NICK" />
+
+</RelativeLayout>
